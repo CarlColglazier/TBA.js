@@ -1,0 +1,32 @@
+{
+  "name": "tba",
+  "version": "0.0.0",
+  "description": "A Node.js wrapper for The Blue Alliance API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlColglazier/the-blue-alliance"
+  },
+  "keywords": [
+    "FRC",
+    "FIRST",
+    "Robotics",
+    "FIRST",
+    "The",
+    "Blue",
+    "Alliance"
+  ],
+  "author": "Carl Colglazier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlColglazier/the-blue-alliance/issues"
+  },
+  "homepage": "https://github.com/CarlColglazier/the-blue-alliance",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
