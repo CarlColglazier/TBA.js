@@ -16,16 +16,14 @@
     "FIRST",
     "Robotics",
     "FIRST",
-    "The",
-    "Blue",
-    "Alliance"
+    "The Blue Alliance"
   ],
   "author": "Carl Colglazier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CarlColglazier/the-blue-alliance/issues"
+    "url": "https://github.com/CarlColglazier/TBA.js/issues"
   },
-  "homepage": "https://github.com/CarlColglazier/the-blue-alliance",
+  "homepage": "https://github.com/CarlColglazier/TBA.js",
   "dependencies": {
     "request": "^2.51.0"
   }

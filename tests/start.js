@@ -132,6 +132,18 @@ tba.getEvents(2015, function(err,body) {
 	}
 })
 
+tba.getEventTeams("2014ncre", function(err,body) {
+    if (!err) {
+	    if (body) {
+            console.log("getEventTeams : " + JSON.stringify(body).length);
+		} else {
+		    console.log("getEventTeams : Failed");
+		}
+	} else {
+	    console.log("getEventTeams : "+err);
+	}
+})
+
 tba.getEventMatches("2014ncre", function(err,body) {
     if (!err) {
 	    if (body) {
